@@ -1,0 +1,56 @@
+.laydiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.para_element{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.text-field{
+    height:25px;
+    border-style:solid;
+    border-width:1px;
+    padding-left:5px;
+}
+.date-field{
+    margin-left:10px;
+    height:26.8px;
+    border-style:solid;
+    border-width:1px;
+}
+.add-btn{
+    margin-left:10px;
+    height:29px;
+    border-style: solid;
+    border-width:1px;
+    width:50px;
+    border: none;
+    background-color:green;
+    color:white;
+    border-radius:5px;
+    transition: background-color 0.15s;
+}
+.delete-btn{
+    background-color:red;
+    border: none;
+    padding:10px;
+    margin-left:10px;
+    width:90px;
+    border-radius:5px;
+    transition: background-color 0.15s;
+}
+.delete-btn:hover{
+    background-color: rgb(213, 1, 1);
+}
+.delete-btn:active{
+    background-color: rgb(189, 10, 10);
+}
+.add-btn:hover{
+    background-color: rgb(0, 104, 0);
+}
+.add-btn:active{
+    background-color: rgb(0, 83, 0);
+}
+.span-attr{
+    margin-left:10px;
+}
